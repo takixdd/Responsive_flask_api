@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% block title %}
+  Cennik
+{% endblock %}
+{% block content %}
+<div class="parallax2">
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1>Niebiańskie SPA</h1>
+    <h1></h1>
+    <h1>CENNIK USŁUG</h1>
+</div>
+<div class="frame" style="height:290%;background-color: #FAFAFA; font-size:36px;text-shadow: none;color: black;">
+    <a href="#" class="separator sep_first"></a>
+    <img class="massage bali" src="{{ url_for('static', filename='bali_massage.jpg') }}" alt="">
+        <p class="p-titles opis_bali">Masaż Balijski</p>
+    <p class="p-opis-main2 opis_bali">Masaż balijski, będący jedną z form masażu orientalnego, włącza w swoje procedury elementy akupresury,
+        refleksologii oraz jogi. Jego priorytetowym celem jest optymalizacja krążenia krwi i limfy. Masaż ten, choć intensywny, nie przynosi uczucia bolesności,
+        dzięki zastosowaniu precyzyjnych technik.
+        Dzięki profesjonalnemu podejściu i właściwym technikom masażu, terapia balijska indukuje głębokie odprężenie, redukując napięcie mięśniowe i eliminując
+        stres. Wpływa również korzystnie na kondycję skóry, nadając jej pożądane właściwości. W trakcie sesji masażu balijskiego, szczególne znaczenie przypisuje
+        się masażowi stóp oraz dłoni, co stanowi istotny element terapeutycznego procesu.</p>
+    <p class="p-wskazania opis_bali">Zalecany w przypadkach:<br>
+    - nadmiernego napięcia mięśniowego,<br>
+    - stres, depresja,<br>
+    - poprawa samopoczucia,<br>
+    - zaburzenia snu.</p>
+    <p class="p-przeciwwskazania opis_bali">Przeciwwskazania:<br>
+    - świeże zrosty, złamania,<br>
+    - nowotwór,<br>
+    - ciąża,<br>
+    - choroby wirusowe,<br>
+    - świeże rany skórne.</p>
+        <p class="p-cena opis_bali">Cena masażu:</p>
+            <p class="p-cena-zl opis_bali">60min - 170zł</p>
+                <p class="p-cena-zl2 opis_bali">90min - 240zł</p>
+    <a href="#" class="separator sep_second"></a>
+
+    <img class="massage thai" src="{{ url_for('static', filename='thai_massage.jpg') }}" alt="">
+        <p class="p-titles opis_thai">Tajski masaż stóp</p>
+    <p class="p-opis-main2 opis_thai">
+        Masaż tajski stóp to doskonała propozycja dla osób z uczuciem ciężkich nóg. Opierając się na refleksologii,
+        obejmuje stopę, łydki i staw skokowy. Wykorzystuje drewniany kijek, intensyfikując doznania.
+        Rytuał zaczyna się od aromatycznej kąpieli z solą, tworząc atmosferę relaksu. Korzyści to redukcja stresu,
+        poprawa krążenia, oczyszczanie organizmu i pozytywny wpływ na narządy wewnętrzne. Precyzyjne techniki i specjalistyczne narzędzia
+        zapewniają kompleksową poprawę kondycji fizycznej i psychicznej klienta.</p>
+    <p class="p-wskazania wskazania_thai">Zalecany w przypadkach:<br>
+    - uczucia ,,ciężkich nóg",<br>
+    - redukcja stresu, poprawa jakości snu,<br>
+    - redukcja napięcia,<br>
+    - poprawa krążenia krwi i limfy,<br>
+    - zalecany osobom narażonym na nadmierne <br>
+        obciążenia stóp (praca stojąca, otyłość).</p>
+            <p class="p-cena opis_thai">Cena masażu:</p>
+                <p class="p-cena-zl opis_thai">60min - 160zł</p>
+    <a href="#" class="separator sep_third"></a>
+
+    <img class="massage candle" src="{{ url_for('static', filename='candle_massage.jpg') }}" alt="">
+        <p class="p-titles opis_candle">Masaż gorącą świecą</p>
+    <p class="p-opis-main2 opis_candle">Masaż przy użyciu gorącej świecy to delikatna procedura relaksacyjna,
+        w której korzysta się z aromatycznej gorącej świecy. Techniki masażu obejmują głaskanie, rozcieranie oraz
+        łagodne ugniatanie, wykonywane zarówno dłońmi, jak i odpowiednio dobranymi przedmiotami. Intensywność
+        zabiegu jest dostosowywana indywidualnie do potrzeb klienta.
+        Gorąca świeca nie tylko dostarcza przyjemnego aromatu, ale także posiada wyjątkowe właściwości nawilżające.
+        Jej obecność stanowi dodatkowy atut tego zabiegu relaksacyjnego, który ma na celu nie tylko odprężenie ciała, ale także zmysłów.
+        Personalizacja intensywności masażu i zastosowanie gorącej świecy tworzą kompleksowe doświadczenie, które sprzyja głębokiemu relaksowi.</p>
+        <p class="p-wskazania wskazania_candle">Zapewniamy naszym klientom elastyczność wyboru spośród różnorodnych opcji świec:<br>
+    - słoneczna pomarańcza - działanie uspokajające,<br>
+            ma cytrynowy zapach z dominującą nutą pomarańczy i mandarynki,<br>
+    - kawa z czekoladą - działanie pobudzające, ma słodki zapach poprawiający nastrój,<br>
+    - drzewo sandałowe - działanie odprężające, uspokajające, ma ciepły drewniany zapach.</p>
+            <p class="p-cena opis_candle">Cena masażu:</p>
+                    <p class="p-cena-zl opis_candle">30min - 80zł</p>
+                        <p class="p-cena-zl2 opis_candle">60min - 150zł</p>
+    <a href="#" class="separator sep_forth"></a>
+
+    <img class="massage bubble" src="{{ url_for('static', filename='bubble_massage.jpg') }}" alt="">
+        <p class="p-titles opis_bubble">Antycellulitowy masaż bańką chńską</p>
+    <p class="p-opis-main2 opis_bubble">Masaż bańką chińską to intensywna procedura, skupiająca się na spalaniu tkanki tłuszczowej,
+        ujędrnianiu oraz redukcji cellulitu. Zastosowanie bańki chińskiej powoduje zassanie skóry, zmniejszając obrzęki, jednocześnie
+        stymulując przepływ krwi. W trakcie zabiegu dochodzi do intensywnego przekrwienia, co sprawia, że skóra może lekko zaróżowić się.
+        Początkowe zabiegi mogą być odczuwane jako intensywne, dlatego zaleca się stopniowe dostosowywanie intensywności, co pozwala uniknąć
+        nadmiernego dyskomfortu. Zauważalne rezultaty wymagają regularności, dlatego zaleca się przeprowadzanie masażu 2-3 razy w tygodniu.
+        Seria zabiegów jest kluczowa dla efektywności terapii, a konsekwentne powtarzanie sesji pozwala osiągnąć pożądane rezultaty.</p>
+        <p class="p-wskazania wskazania_bubble">Przeciwwskazania:<br>
+    - skóra naczynkowa, wrażliwa,<br>
+    - blizny, uszkodzona skóra w miejscu zabiegu,<br>
+    - ciąża,<br>
+    - miażdżyca,<br>
+    - zakrzepica.</p>
+            <p class="p-cena opis_bubble">Cena masażu:</p>
+                    <p class="p-cena-zl opis_bubble">40min - 120zł</p>
+    <a href="#" class="separator sep_fifth"></a>
+
+    <img class="massage relax" src="{{ url_for('static', filename='relax_massage.jpg') }}" alt="">
+        <p class="p-titles opis_relax">Masaż relaksacyjny</p>
+    <p class="p-opis-main2 opis_relax">Masaż relaksacyjny rekomendowany przede wszystkim w kontekście poprawy samopoczucia
+        oraz redukcji stresu i napięcia charakteryzuje się spokojnym, delikatnym podejściem, jednak jego intensywność zawsze
+        dostosowywana jest do indywidualnych potrzeb Klienta. Wykorzystuje on klasyczne techniki masażu, operując przy tym
+        środkami poślizgowymi o działaniu nawilżającym. Podczas tego masażu stosowane są ruchy dłoni i przedramion, co sprzyja
+        nawilżeniu skóry, poprawie krążenia krwi oraz limfy, a także wspomaga oczyszczanie organizmu z toksyn. Profesjonalne podejście
+        do intensywności masażu oraz zastosowanie specjalistycznych środków poślizgowych tworzą kompleksowe doświadczenie relaksacyjne,
+        wpływając korzystnie na ogólne samopoczucie Klienta.</p>
+            <p class="p-cena opis_relax">Cena masażu:</p>
+                    <p class="p-cena-zl opis_relax">30min - 80zł</p>
+                        <p class="p-cena-zl2 opis_relax">50min - 150zł</p>
+    <a href="#" class="separator sep_sixth"></a>
+
+    <img class="massage classic" src="{{ url_for('static', filename='classic_massage.jpg') }}" alt="">
+        <p class="p-titles opis_classic">Masaż klasyczny</p>
+    <p class="p-opis-main2 opis_classic">Masaż klasyczny reprezentuje najbardziej powszechną formę terapeutycznego dotyku,
+        korzystając z różnorodnych technik, takich jak głaskanie, rozcieranie, ugniatanie oraz oklepywanie. Wykonywany jest
+        przy użyciu dłoni, przedramion, a także łokci, z precyzyjnym dostosowaniem intensywności do indywidualnych potrzeb klienta.
+        Zróżnicowane techniki masażu klasycznego pozwalają osiągnąć efekty zarówno rozluźniające, jak i pobudzające, co czyni tę formę
+        masażu szczególnie uniwersalną. Jest on wybierany w przypadku różnorodnych schorzeń, a profesjonalne podejście do dostosowania
+        intensywności sprawia, że jest to zabieg terapeutyczny o szerokim zastosowaniu.</p>
+        <p class="p-wskazania opis_classic">Zalecany w przypadkach:<br>
+    - nadmiernego napięcia mięśniowego,<br>
+    - przewlekłe bóle głowy,<br>
+    - problemów z kręgosłupem,<br>
+    - redukcji stresu, zaburzeń krążenia,<br>
+    - dla poprawy zakresu ruchu,<br>
+    - terapii uzupełniających w leczeniu kontuzji.</p>
+        <p class="p-przeciwwskazania przeciw_classic">Przeciwwskazania:<br>
+    - gorączka,<br>
+    - choroby zakaźne skóry,<br>
+    - stany zapalne, choroby zakaźne,<br>
+    - zaawansowane choroby serca,<br>
+    - ciąża (głównie pierwszy trymestr),<br>
+    - świeże blizny, rany.</p>
+            <p class="p-cena opis_classic">Cena masażu:</p>
+                    <p class="p-cena-zl opis_classic">30min - 70zł</p>
+                        <p class="p-cena-zl2 opis_classic">50min - 130zł</p>
+    <a href="#" class="separator sep_seventh"></a>
+
+    <img class="massage tkanek" src="{{ url_for('static', filename='tkanek_massage.jpg') }}" alt="">
+        <p class="p-titles opis_tkanek">Masaż tkanek głębokich</p>
+    <p class="p-opis-main2 opis_tkanek">Masaż tkanek głębokich, znany również jako masaż łącznotkankowy, stanowi
+        skuteczną procedurę rozluźniającą napięcia mięśniowe. Wykonywany powoli i spokojnie, bez użycia środka poślizgowego,
+        ten przyjemny zabieg nie powoduje dyskomfortu bólowego. Odpowiednio przeprowadzony przynosi ulgę w dolegliwościach bólowych,
+        oferując jednocześnie relaks i odprężenie. Dodatkowym atutem masażu tkanek głębokich jest jego korzystny wpływ na poprawę
+        krążenia krwi. Przywraca on prawidłową postawę ciała, zwiększa ruchomość oraz zmniejsza dolegliwości bólowe. Efektywnie
+        wspomaga redukcję objawów stresu, przynosząc jednocześnie poprawę samopoczucia.</p>
+        <p class="p-wskazania opis_tkanek">Wskazany dla:<br>
+    - poprawa krążenia,<br>
+    - stres, bóle głowy,<br>
+    - przewlekły ból,<br>
+    - poprawa zakresu ruchomości,<br>
+    - wady postawy ciała,<br>
+    - zespół bólowy kręgosłupa.</p>
+        <p class="p-przeciwwskazania opis_tkanek">Przeciwwskazania:<br>
+    - gorączka,<br>
+    - ostre stany zapalne stawów i ścięgien,<br>
+    - przerwanie ciągłości skóry,<br>
+    - ciąża, zakrzepica,<br>
+    - zakrzepica, choroby zakaźne.<br>
+            <p class="p-cena opis_tkanek">Cena masażu:</p>
+                    <p class="p-cena-zl opis_tkanek">30min - 80zł</p>
+                        <p class="p-cena-zl2 opis_tkanek">50min - 150zł</p>
+    <a href="#" class="separator sep_eigth"></a>
+
+    <img class="massage kobido" src="{{ url_for('static', filename='kobido_massage.jpg') }}" alt="">
+        <p class="p-titles opis_kobido">Liftingujący masaż Kobido</p>
+    <p class="p-opis-main2 opis_kobido">Masaż Kobido to zaawansowana forma liftingującego masażu twarzy obejmującego obszary
+        twarzy, dekoltu, szyi, karku, ramion i głowy. Składa się z pięciu etapów: masażu tkanek głębokich, relaksacji, drenażu
+        limfatycznego, liftingu oraz zakończenia z elementami akupresury. Jest to wysokowydajna alternatywa dla zabiegów medycyny
+        estetycznej, charakteryzująca się natychmiastowymi efektami już po pierwszym zabiegu.
+        Masaż Kobido przyczynia się do poprawy krążenia krwi, zwiększenia dotlenienia skóry oraz redukcji zmarszczek mimicznych.
+        Jest szczególnie korzystny dla osób z problemami bruksizmu, bólami głowy oraz napięciami mięśniowymi. Można go dodatkowo
+        uzupełnić kinesiotapingiem estetycznym, wzbogacając tym samym cały proces.</p>
+        <p class="p-wskazania wskazania_kobido">Wskazania:<br>
+    - zmarszczki mimiczne,<br>
+    - stres, bruksizm,<br>
+    - wiotka skóra, bóle głowy,<br>
+    - opadająca powieka,<br>
+    - opadający owal twarzy,<br>
+    - napięcie mięśniowe w okolicy karku, głowy.</p>
+        <p class="p-przeciwwskazania przeciwwskazania_kobido">Przeciwwskazania:<br>
+    - stany zapalne, gorączka, otwarte rany skóry,<br>
+    - stany zapalne w okolicy zębów,<br>
+      - cera naczynkowa.<br>
+    - stany po usunięciu zęba - 2 tygodnie<br>
+    - zabiegi medycyny estetycznej (po zabiegu
+    z kwasem hialuronowym - 2,5miesiąca;<br>
+    po botoksie - 2 tygodnie; po niciach liftingowych - 6 miesięcy),<br>
+    - wysokie nadciśnienie tętnicze,<br>
+    - trądzik różowaty w stanie zaostrzenia.</p>
+            <p class="p-cena opis_kobido">Cena masażu:</p>
+                    <p class="p-cena-zl opis_kobido">60min - 180zł</p>
+                        <p class="p-cena-zl2 opis_kobido">75min - 210zł</p>
+    <a href="#" class="separator sep_nineth"></a>
+
+    <img class="massage foot" src="{{ url_for('static', filename='foot_massage.jpg') }}" alt="">
+        <p class="p-titles opis_foot">Refleksologia stóp</p>
+    <p class="p-opis-main2 opis_foot">Refleksologia stóp to terapeutyczny masaż, który jednocześnie relaksuje i wspomaga
+        proces leczenia. Technika ta opiera się na precyzyjnym uciskaniu punktów refleksologicznych na stopach, odpowiadających
+        różnym narządom wewnętrznym. Podczas zabiegu stymulowany jest naturalny proces oczyszczania organizmu z toksyn.
+        Masaż refleksologiczny może wywołać różnorodne reakcje, takie jak wzmożone oddawanie moczu, potliwość, pragnienie,
+        senność, osłabiony apetyt, a także skrajne odczucia temperatury, czy nawet płacz lub śmiech. Te objawy są naturalną
+        reakcją organizmu na terapię i nie powinny budzić niepokoju.
+        Główne korzyści z refleksologii stóp obejmują poprawę krążenia krwi i limfy, oczyszczenie organizmu z toksyn, łagodzenie
+        bólów migrenowych, redukcję stresu, regulację rytmu snu oraz łagodzenie bólu. Zaleca się przeprowadzanie zabiegu co 2-3
+        dni w serii obejmującej co najmniej 2-3 sesje.</p>
+        <p class="p-wskazania wskazania_foot">Przeciwwskazania:<br>
+    - gorączka, stany zapalne,<br>
+    - otwarte rany, ciąża,<br>
+    - uszkodzenia w obrębie stóp,<br>
+    - grzybica stóp.</p>
+            <p class="p-cena cena_foot">Cena masażu:</p>
+                    <p class="p-cena-zl cena_foot">60min - 120zł</p>
+    <a href="#" class="separator sep_tenth"></a>
+
+
+
+</div>
+
+<div class="parallax2"></div>
+{% endblock %}

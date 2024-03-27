@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    niebianskie SPA
+{% endblock %}
+
+{% block content %}
+
+<div class="parallax">
+    <h1></h1>
+    <h1></h1>
+
+    <h1>Niebiańskie SPA</h1>
+    <h3>Salon Masażu</h3>
+
+    <h3>Świeradów-Zdrój
+        ul. Chopina 2
+    </h3>
+
+</div>
+<div class="home_scroll">
+    <img class="main_first_photo" src="{{ url_for('static', filename='IMG_8973.jpeg') }}" alt="">
+        <img class="second_photo" src="{{ url_for('static', filename='IMG_8967.jpeg') }}" alt="">
+
+    <p class="p-opis-main opis_main1">Niezwykłe doznania relaksacyjne czekają Państwa w
+        <a class="opis_main_blue">Niebiańskim SPA<a>, ekskluzywnym salonie masażu usytuowanym w malowniczym Świeradowie-Zdroju. Nasz zespół wykwalifikowanych i doświadczonych masażystów gwarantuje niezapomniane chwile pełne odprężenia i regeneracji.</a>
+    <p class="p-opis-main opis_main2">W <a class="opis_main_blue">Niebiańskim SPA<a> nie tylko oferujemy profesjonalne usługi masażu, ale także stawiamy na indywidualne podejście do każdego Klienta. Nasza załoga to nie tylko specjaliści w dziedzinie masażu, lecz również osoby niezwykle kontaktowe, uprzejme i gotowe sprostać Państwa oczekiwaniom.</p>
+    <p class="p-opis-main opis_main3">W trosce o Państwa komfort, stworzyliśmy unikalną atmosferę, gdzie każdy detal został przemyślany, by zapewnić nie tylko fizyczne, ale także mentalne odprężenie. <a class="opis_main_blue">Niebiańskim SPA<a> to miejsce, gdzie luksus łączy się z profesjonalizmem, tworząc doskonałe środowisko do relaksu.</p>
+    <p class="p-opis-main opis_main4">Serdecznie zapraszamy do skorzystania z naszych usług i doświadczenia niezapomnianej podróży w świat pełen błogiego odprężenia. <a class="opis_main_blue">Niebiańskim SPA<a> – tam, gdzie zaczyna się prawdziwy relaks.</p>
+
+
+    <div class="product_buttons">
+        <button class="btn buy">
+            <a class="galeria-zdjec" href="{{ url_for('galeria_page') }}">Galeria</a>
+        </button>
+    </div>
+</div>
+
+<div class="parallax">
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+
+<div class="home_second_scroll">
+    <h2>Lokalizacja salonu</h2>
+     <gmp-map center="50.89596221012209, 15.363708041153675" zoom="20" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="50.89596221012209, 15.363708041153675" title="My location">
+      </gmp-advanced-marker>
+    </gmp-map>
+
+</div>
+<div class="parallax">
+</div>
+<h1></h1>
+<h1></h1>
+{% endblock %}
+</div>

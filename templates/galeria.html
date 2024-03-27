@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Galeria Zdjęć
+{% endblock %}
+{% block content %}
+
+    <img class="galeria" src=" {{ url_for('static', filename='IMG_8976.jpeg') }}">
+    <img class="galeria" src=" {{ url_for('static', filename='IMG_8967.jpeg') }}">
+    <img class="galeria" src=" {{ url_for('static', filename='IMG_8969.jpeg') }}">
+    <img class="galeria2" src=" {{ url_for('static', filename='IMG_8965.jpeg') }}">
+    <img class="galeria" src=" {{ url_for('static', filename='IMG_8964.jpeg') }}">
+    <img class="galeria2" src=" {{ url_for('static', filename='IMG_8971.jpeg') }}">
+
+{% endblock %}
